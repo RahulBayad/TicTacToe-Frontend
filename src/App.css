@@ -1,0 +1,53 @@
+*{
+  font-family:'Courier New', Courier, monospace;
+  overflow: hidden;
+}
+
+#root {
+  margin: 0px;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: Orange;
+}
+button{
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: orange;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+h1,h2,h3,h4{
+  margin: 0;
+}
+
+#app{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#appHeading{
+  font-size: 3.6rem;
+  width: 80%;
+  text-align: center;
+}
+
+.startGameContainer{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.startGameContainer button{
+  width: 100%;
+}
+.startGameContainer button:hover{
+  background-color: darkorange;
+}

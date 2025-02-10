@@ -1,0 +1,21 @@
+.ticTacContainer{
+    height: 300px;
+    width: 300px;
+    /* background-color: orange; */
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.ticTacContainer button{
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    border: 1px solid blue;
+    background-color: black;
+    border-radius: 0;
+    color: red;
+    box-sizing: border-box;
+    outline: none;
+}
