@@ -9,8 +9,9 @@ function App() {
       <div className="startGameContainer">
         <img src="./ticTacImg.png" id="ticTacImage" alt="" />
         <NavLink to="/game">
-          <button className="play-btn">Play</button>
+          <button className="play-btn">Player</button>
         </NavLink>
+        <button>Settings</button>
       </div>
     </div>
   );

@@ -23,7 +23,7 @@ return (
             game.connection ? 
             <TicTacBoard roomId={game.roomId} playerTurn={game.playerTurn} socket={socketInstance.current}/> 
             : 
-            <div>
+            <div className=''>
                 <h1>Finding opponent</h1>
                 <br />
                 <a href="/"><button>Cancel</button></a>

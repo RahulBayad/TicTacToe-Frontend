@@ -1,0 +1,59 @@
+.playersContainer{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #131313;
+    display: flex;
+    padding: 10px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.playerBox{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px;
+    width: 10rem;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    color: white;
+    background-color: #272727;
+    border: 3px solid #05ff01;
+}
+.playerBox img{
+    border: 3px solid #525252;
+    border-radius: 5px;
+    padding: 5px;
+}
+.timeContainer{
+    background-color: #383838;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    color: white;
+    text-align: center;
+}
+.ticTacContainer{
+    height: 390px;
+    width: 390px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.ticTacContainer button{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid ; */
+    background-color: #272727;
+    box-shadow: 0 8px 2px rgb(26, 26, 26) ;
+    border-radius: 5px;
+    /* color: #0080db; */
+    font-family: "arial";
+    font-size: 2.5rem;
+    box-sizing: border-box;
+    outline: none;
+}

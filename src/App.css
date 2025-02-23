@@ -8,8 +8,13 @@
   min-height: 100vh;
   width: 100vw;
   box-sizing: border-box;
-  background-color: #1f1f1f;
+  /* background-color: #1f1f1f; */
   color: Orange;
+}
+body{
+  /* background-image: url("./../public/Background.jpg"); */
+  background-color: #242424;
+  background-size: cover;
 }
 button{
   border-radius: 5px;
