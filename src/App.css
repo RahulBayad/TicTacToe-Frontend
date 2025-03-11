@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "myFont";
+    src: url(/UberMove-Regular.woff2);
+}
+
+*{
+    /* overflow-x: hidden; */
+    text-decoration: none;
+}
+  
+#root {
+    margin: 0px;
+    min-height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    /* color: #cdcdcd; */
+}
+body{
+    background-size: cover;
+    font-family: "myFont";
+    letter-spacing: 0.5px;
+}
+button{
+    outline: none;
+    /* font-weight: 600; */
+    cursor: pointer;
+    /* transform: rotate(); */
+}
+
+.spins{
+    height: 400px;
+    width: 2px;
+    display: block;
+    background-color: green;
+    position : absolute;
+    transform : translateY(-50px);
+    
+    /* top: 200px; */
+    z-index : -1;
+    animation: 60s spins infinite;
+}
